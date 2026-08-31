@@ -8,7 +8,7 @@ Electrical Engineering Fresh Graduate specializing in PLC programming, OPC UA co
 - Integrating OPC UA for real-time industrial communication
 - Designing HMI dashboards with Node-RED
 - Validating open-source PLC alternatives against commercial hardware
-- Learning more about SCADA, Modbus TCP, and industrial IoT
+- Learning more about SCADA/HMI, Communication Protocol, and industrial IoT
 
 ## Featured Projects
 
