@@ -36,13 +36,21 @@ Rotary kiln temperature control with PID loop, CODESYS + Node-RED
 - Plant model with thermal physics simulation
 - OPC UA integration with Node-RED HMI dashboard
 
+### [AXC F 2152 to Arduino UNO Modbus Connection](https://github.com/NabilFarrell/AXC-F2152-Modbus-Arduino-UNO)
+Bidirectional Modbus RTU communication between Phoenix Contact AXC F 2152 PLCnext and Arduino UNO over RS-485
+
+- Modbus RTU protocol: FC1 (Read Coils), FC3 (Read Holding Registers), FC5 (Write Single Coil)
+- RS-485 physical layer with MAX485 transceiver
+- PLCnext Engineer CFC/FBD program with 9 functional groups
+- Arduino Modbus slave with coil and register mapping
+
 ## Tech Stack
 
 | Category | Technologies |
 |----------|-------------|
-| **PLC Programming** | CODESYS V3.5, OpenPLC v3, IEC 61131-3 (ST, LD) |
-| **Platforms** | ESP32 (FreeRTOS), Siemens S7, Omron CP |
-| **Communication** | OPC UA, Symbol Set Configuration |
+| **PLC Programming** | CODESYS V3.5, PLCnext Engineer, OpenPLC v3, IEC 61131-3 (ST, LD, FBD) |
+| **Platforms** | Phoenix Contact AXC F 2152, ESP32 (FreeRTOS), Siemens S7, Omron CP |
+| **Communication** | OPC UA, Modbus RTU, RS-485 |
 | **HMI/SCADA** | Node-RED Dashboard, node-red-contrib-opcua |
 | **Measurement** | Oscilloscope, Arduino DAQ, Python (NumPy, Matplotlib) |
 | **Tools** | Git, GitHub, VS Code |
