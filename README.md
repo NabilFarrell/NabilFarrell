@@ -1,6 +1,6 @@
 # Hi, I'm Muhammad Nabil Farrell
 
-Industrial Automation Engineer specializing in PLC programming, OPC UA communication, and HMI/SCADA systems.
+Electrical Engineering Fresh Graduate specializing in PLC programming, OPC UA communication, and HMI/SCADA systems.
 
 ## About Me
 
